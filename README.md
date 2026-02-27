@@ -1,11 +1,26 @@
-# Sample Snack app
+# 🌫️ Projeto 01 - Task.Hill (Controle de Tarefas)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+> "In my restless dreams, I see that town... Silent Hill."
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+Este é um mini sistema de controle de tarefas desenvolvido em **React Native (Expo)** para a disciplina de Desenvolvimento Mobile. O projeto utiliza uma estética inspirada na franquia *Silent Hill*, focando em uma interface imersiva com tons de ferrugem, neblina e escuridão.
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+---
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## 📸 Protótipo e Design
+O projeto foi construído para ser visualmente denso, utilizando:
+- **Cores:** `#000000` (Escuridão), `#8B0000` (Sangue), `#5D2918` (Ferrugem) e `#4A4E51` (Neblina).
+- **Estética:** Botões quadrados e bordas sólidas que remetem aos menus clássicos de jogos de Survival Horror dos anos 90/00.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 📁 Estrutura do Projeto
+O sistema foi organizado de forma modular para facilitar a manutenção e seguir as boas práticas:
+
+```text
+.
+├── src/
+│   └── pages/
+│       └── Login.js        # Tela de autenticação imersiva
+├── App.js                  # Gerenciador de estados e navegação principal
+├── Theme.js                # Centralização da paleta de cores (Design System)
+└── README.md               # Documentação do projeto
